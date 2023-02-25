@@ -84,7 +84,7 @@ But _any_ app that makes HTTP requests can talk to a webserver. In this case our
 
 ![Dual Terminals](./images/dual_terminals.jpg)
 
-👉 In one terminal instance `npm run start-server` and in the other terminal run `npm run start-client`. Now your client can contact the server!
+👉 In one terminal instance ` run snpmtart-server` and in the other terminal run `npm run start-client`. Now your client can contact the server!
 
 👉 Explore the client application now that the server is running. You should be able to send messages to the server and see them echoed in the server terminal, and to browse the users/posts returned from the server.
 
