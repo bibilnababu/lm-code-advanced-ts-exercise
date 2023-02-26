@@ -1,5 +1,5 @@
 import { User } from "../types/posts.types";
-
+export let users: { name: string }[] = [];
 export function getAllUsers(): User[] {
 	// in the absence of a true Model layer, our service can simply return a hard-coded array of users
 
@@ -25,4 +25,12 @@ export function getAllUsers(): User[] {
 			creationDate: new Date(),
 		},
 	];
+
+
+	
+
+
+
+
+
 }
